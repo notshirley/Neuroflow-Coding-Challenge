@@ -6,6 +6,7 @@ To run:
     I used Visual Studio Code.
     Run the API by:
         cd API
+        .venv\Scripts\activate <!--activate .venv-->
         set FLASK_APP=application.py <!--or whatever the equivalent of set is in your environment-->
         set FLASK_ENV=development <!--or whatever the equivalent of set is in your environment-->
         flask run <!--there may be an error telling you FLASK_APP or FLASK_ENV has not been set, I struggled and could only repeat the those commands until it worked -->
